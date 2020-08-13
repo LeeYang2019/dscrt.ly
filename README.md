@@ -24,3 +24,4 @@ Link: https://dscrt.ly
 
 ## Screen shots of the application
 
+![Screen Shot 2020-08-13 at 3 59 23 PM](https://user-images.githubusercontent.com/46943342/90181477-837f5780-dd7e-11ea-9c1e-530ac9292f9a.png)
