@@ -1,11 +1,8 @@
 # dscrt.ly
 
 ## Description
-Vanilla JS with Nodejs, Express, and Socket.IO
 
-In this project, I learned how to use Socket.IO to create a live chat app for use with my siblings during the Covid19 pandemic.
-
-Thanks goes to Brad Traversy for his tutorial and giving me the idea.
+A couple of friends I worked with wanted to integrate a Twilio API for a growth system they had been working on. They wanted to be able to ask users to enter in their phone numbers utilize the Twilio API to send texts. Since the growth system was created in Webflow, it is not compatible with Twilio. To solve this, I created a Node application with server-side rendering. Since Twilio is compatible with Node, I ended up exporting the Webflow application and used server-side rendering to render the application. Furthermore, I integrated a Intl-Tel-Input API for validating phone numbers and incorporated a Firebase database to store the phone numbers. Lastly, I was able to deploy the node application to Firebase with a custom domain.
 
 ## Goals
 
