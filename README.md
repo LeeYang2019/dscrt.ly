@@ -8,7 +8,7 @@ Since Twilio did not support Webflow, it was impossible to integrate the API wit
 
 Having created the Node application, I was then able to also integrate the Intl-Tel-Input API for phone number validations, a Firebase database for storing phone numbers. And I was able to deploy the application to Firebase.
 
-Tech: Nodejs, Webflow, Twilio API, Intl-Tel-Input API, FirebaseDb, Firebase Hosting
+Technologies: Nodejs, Webflow, Twilio API, Intl-Tel-Input API, Firebase Database, Firebase Hosting
 
 ## Goals
 
