@@ -2,7 +2,11 @@
 
 ## Description
 
-A couple of friends I worked with wanted to integrate a Twilio API for a growth system they had been working on. They wanted to be able to ask users to enter in their phone numbers utilize the Twilio API to send texts. Since the growth system was created in Webflow, it is not compatible with Twilio. To solve this, I created a Node application with server-side rendering. Since Twilio is compatible with Node, I ended up exporting the Webflow application and used server-side rendering to render the application. Furthermore, I integrated a Intl-Tel-Input API for validating phone numbers and incorporated a Firebase database to store the phone numbers. Lastly, I was able to deploy the node application to Firebase with a custom domain.
+A couple of friends wanted to integrate a Twilio API into a simple Webflow application they had worked on, which they wanted to use to  gauge whether users would be interested in a social media app they wanted to build. One friend would send out links to the application, along with an invite code, to friends and they would navigate to the website, enter in the invite code, and then be prompted to provide in their phone numbers. The application would then save their phone numbers to a database and a follow-up text would be sent to their phones.
+
+Since Twilio did not support Webflow, it was impossible to integrate the API without some finessing. Although Twilio did not support Webflow, I researched that it does support Node. And since Node does provide server-side rendering for CSS/HTML, and since I also learned I could export the Webflow application out of Webflow as CSS/HTML, I figured out how to create a Node application with server-side rendering, rendering the Webflow content, with a Twilio API integration.
+
+Having created the Node application, I was then able to also integrate the Intl-Tel-Input API for phone number validations, a Firebase database for storing phone numbers. And I was able to deploy the application to Firebase.
 
 Tech: Nodejs, Webflow, Twilio API, Intl-Tel-Input API, FirebaseDb, Firebase Hosting
 
